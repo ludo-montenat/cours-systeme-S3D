@@ -1,0 +1,57 @@
+1. de quand date le C ? de quoi le C s'inspire-t-il ?
+Le C est inventé au début des années 1970. Il ne s'inspire de son prédecesseur, le langage B.
+
+2. qu'est-ce que BCPL ?
+BCPL est un langage datant de 1967, évolué du langage CPL.
+
+3. y a-t-il plusieurs versions de C ? quelle est la version la plus récente ?
+Oui, le C a plusieurs versions. La version la plus récente date de 2024.
+
+4. quel est le lien entre le C et UNIX ? quel est le lien entre le C et Java ?
+Le langage C a été inventé pour écrire le système d'exploitation UNIX. Son lien avec Java est qu'il a influencé la syntaxe et la logique du langage.
+
+5. quelle est la structure d'un programme C ?
+Un programme C se constitue d'une première ligne commençant pas # qui permet de charger le fichier stdio.h, une bibliothèque qui renseigne le langage sur les profils des fonctions d'entrée/sortie, par exemple l'affichage. Elle n'est pas obligatoire mais est presque toujours présente dans les programmes C.
+Puis, après le chargement des bibliothèques (il est possible d'ajouter plusieurs ligne avec un # au début du programme), un programme C contient simplement une suite de fonctions. La seule chose à ne pas oublier est la fonction main bien définie qui permet de rendre le programme exécutable.
+
+6. qu'est-ce que le préprocesseur et à quoi sert-il ?
+Le préprocesseur est un programme qui procède à des transformations sur un code source avec de compiler/interpréter l'exécutable du programme C.
+
+7. qu'est-ce qu'un fichier Makefile ?
+Un fichier Makefile permet l'automatisation de compilations.
+
+8. quels sont les types de base du C ?
+Les types de bases sont les boolées (bool), les grands nombres (long), les entiers de taille fixée (int16_t, uint32_t,..) et les tableaux de tailles variable (ex : 'int T[];' un tableau de int dans une variable T)
+
+9. qu'est-ce qu'une structure ?
+Une structure est un mécanisme de type composé qui permet de grouper un certain nombre de variables de types différents.
+
+10. qu'est-ce qu'un pointeur ?
+Une variable de type pointeur est l'adresse d'une variable. Le principe d'un pointeur est de retrouver l'adresse mémoire d'une variable.
+
+11. comment savoir la taille d'une variable ?
+On peut afficher la taille mémoire occupée par une variable avec sizeof.
+
+12. comment connaître la valeur des octets d'un entier ?
+Il faut faire sizeof(int).
+
+13. comment connaître la valeur d'un octet connaissant son adresse ?
+-
+
+14. comment est stocké un tableau à une dimension ?
+Un tableau à une dimension se
+
+15. comment est stocké un tableau à deux dimensions ?
+-
+
+16. dans quel ordre les octets d'un entier sur 16 bits sont-ils stockés ?
+-
+
+17. comment peut-on manipuler des chaînes de caractères ?
+-
+
+18. est-ce que les chaînes permettent de stocker de l'UTF8 ?
+-
+
+19. qu'est-ce qu'un débogueur ? donnez un exemple de débogueur pour C et pour Java.
+-
